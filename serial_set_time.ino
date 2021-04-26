@@ -1,13 +1,10 @@
 /*
    TimeSerial.pde
-   example code illustrating Time library set through serial port messages.
+   example code illustrating Time library set through serial port messages. HH MM SS DD MM YYYY
+   
+   seconds per day to adjust time + or - 
+   to make the clock more accurate
 
-   Messages consist of the letter T followed by ten digit time (as seconds since Jan 1 1970)
-   you can send the text on the next line using Serial Monitor to set the clock to noon Jan 1 2013
-  T1357041600
-
-   A Processing example sketch to automatically send the messages is included in the download
-   On Linux, you can use "date +T%s\n > /dev/ttyACM0" (UTC time zone)
 */
 #include <stdio.h>
 #include <TimeLib.h>
