@@ -135,7 +135,7 @@ void Repeats_adjusttime() {
 }
 
 
-// get user input, set clock
+// get user input, set clock https://forum.arduino.cc/t/how-to-set-ds3231-by-serial-monitor/205193/8
 void set_clock (void)
 {
     hh = 0; mm = 0; s = 0;
@@ -165,6 +165,7 @@ Serial.println (yr);
     }
 }
 
+//https://forum.arduino.cc/t/how-to-set-ds3231-by-serial-monitor/205193/8
 uint16_t readline (char *buffer, int limit)
 {
     char c;
