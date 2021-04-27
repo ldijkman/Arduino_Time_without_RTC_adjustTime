@@ -4,6 +4,12 @@
    
    seconds per day to adjust time + or - 
    to make the clock more accurate
+   
+   let the clock run for a day with sectoadjustperday = +8.5; // + or -
+   set to zero 0
+   compare time with another clock to know the seconds to adjust per day
+   then set sectoadjustperday = +8.5; // + or - your ?? seconds to adjust per day
+   secondsperday is divided by sectoadjustperday and a second + or - is adjusted
 
 */
 #include <stdio.h>
